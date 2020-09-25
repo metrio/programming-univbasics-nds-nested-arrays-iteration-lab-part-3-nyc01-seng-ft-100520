@@ -3,7 +3,7 @@ def join_nested_strings(src)
   phrase = []
   count = 0 
   while count < src.length do
-    if src.class == String
+    if src[count].class == String
       phrase << src[count]
     end
     count += 1
