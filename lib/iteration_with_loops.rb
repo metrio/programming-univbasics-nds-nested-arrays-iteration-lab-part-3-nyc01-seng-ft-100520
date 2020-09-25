@@ -2,7 +2,7 @@ def join_nested_strings(src)
   src = src.flatten
   phrase = []
   count = 0 
-  while count < src.count do
+  while count < src.length do
     if src.class == String
       phrase << src[count]
     end
