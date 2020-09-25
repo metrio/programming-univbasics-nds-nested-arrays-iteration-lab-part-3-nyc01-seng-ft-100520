@@ -1,6 +1,7 @@
 def join_nested_strings(src)
-  phrase  = []
-  phrase << src.flatten
+  new_array = []
+  new_array << src.flatten
   if index.select  { |index| == String }
+    
   end
    
