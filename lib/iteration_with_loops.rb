@@ -1,6 +1,6 @@
 def join_nested_strings(src)
   phrase  = []
   phrase << src.flatten
-  index.select 
+  index.select  {
   end
    
