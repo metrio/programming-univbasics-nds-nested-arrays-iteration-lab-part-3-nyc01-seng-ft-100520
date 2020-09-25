@@ -5,8 +5,8 @@ def join_nested_strings(src)
   while count < src.length do
     if src.class == String
       phrase << src[count]
+      count += 1
     end
-    count += 1
   end
   phrase.join(" ")
 end
