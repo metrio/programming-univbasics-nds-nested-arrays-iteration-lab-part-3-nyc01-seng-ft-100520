@@ -1,4 +1,5 @@
 def join_nested_strings(src)
- return src.flatten
+  phrase  
+  src.flatten
   end
    
