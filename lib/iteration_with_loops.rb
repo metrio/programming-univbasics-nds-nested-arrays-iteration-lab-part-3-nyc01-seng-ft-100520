@@ -5,5 +5,5 @@ def join_nested_strings(src)
   if index.select  { |index| == String }
     phrase << index
   end
-  return phrase.join
-   
+  return phrase.join(" ")
+end
